@@ -1,3 +1,7 @@
+package day2
+
+import readInput
+
 fun main() {
     val input = readInput("day2/Day02")
     val gamesInfo = input.map { row ->
@@ -57,3 +61,4 @@ data class Game(
     val maxGreenCount: Int,
     val maxBlueCount: Int
 )
+
